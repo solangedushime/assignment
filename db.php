@@ -2,7 +2,7 @@
 $dsn= 'mysql:host=localhost;dbname=company';
 $username='root';
 $pass='';
-try
+try   
 {
     $connection= new PDO($dsn, $username, $pass);
 }
